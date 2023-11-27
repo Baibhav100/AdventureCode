@@ -25,7 +25,7 @@ const MyCalendar = ({startDate,endDate,handleEndChange,handleStartChange,selecte
     <h2 className='text-white'>Departure Date</h2>
       <Calendar
         onChange={handleStartChange}
-        value={startDate}
+        value={startDate} //nothing
    
        />
      
